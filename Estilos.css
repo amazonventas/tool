@@ -8,36 +8,35 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
-
-.Links {
-  color:black;
-  text-decoration: none;
-  font-size: x-large;
+.Portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 
-.Links:hover {
-  color:blue;
-}
-
-.Contenido {
+.Contenido-Parrafo {
   max-width: 1000px;
   margin: auto;
 }
 
+
+.Productos {
+  margin : 10px 10px;
+} 
+
 .Parrafo {
  font-size: x-large;
-text-align: justify;
-
+ text-align: justify;
 }
 
 .Parrafo-Tienda {
   font-size: medium;
   text-align: center;
   padding: 15px 15px;
- 
- }
+  max-width: 250px;
+}
  
 
 .Columna-Central {
@@ -49,6 +48,13 @@ text-align: justify;
   border-radius: 10px;
   padding-bottom: 50px;
 }
+
+.Contenedor-Imagenes {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+
 
 .Imagenes-Portada {
   height: 200px;
@@ -234,107 +240,43 @@ text-align: justify;
     width: 300px;
   }
   
-  .Columna {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-
-  .ContenedorColumnas {
-    flex-wrap: wrap;  
-  }
-
-
-  .ColumnaCanalizacion {
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .Publicidad {
-    max-height: 200px;
-    max-width: 500px;
-  }
-
-  .Columna1 {
-    margin-bottom: 0px;
-  }
-
-  .Columna2 {
-    margin-bottom: 0px;
-  }
-
-  .TablaCorriente {
-    max-width: 200px; 
-  }
-
-
-   .TablasTubos {
-    width: 95%;
-   }
-
-   .TablaImpedancia {
-    width: 98%;
-   }
-
-   .tabla-agrupamiento {
-    display: block;
-    height: 250px;
-  }
 
   .ocultar-p {
     display: none;
     width: 100%;
   }
 
+  .Columna-Central {
+    width: 400px;
+  }
   
-   
+  .Contenedor-Imagenes {
+    flex-direction: column; /* Cambia a disposición vertical */
+  }
+
+  
+  .Portada {
+    flex-direction: column;
+  }
+
+  .Contenido-Parrafo {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .Imagen-Sola {
+    width:  200px;
+  }
+  
 }
 
-.Titulo{
-  margin-top: 1%;
-   height: 1%;
-   color: black;
- }
+/* Fin de Estilos para dispositivos móviles */
+
 
 .ContenedorColumnas {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.Columna1 {
-  padding-right: 50px;
-  padding-left:  50px;
-  padding-bottom: 20px;
-  max-width: 80%;
-}
-
-.Columna2 {
-  padding-right: 50px;
-  padding-left:  50px;
-  padding-bottom: 20px;
-  max-width: 80%;
-}
-
-.table-borderless{
-  border-style: solid;
-  border-width: 5px;
-}
-
-.lienzo{
-  width:  100px;
-  height: 100px;
-}
-
-.ImagenTabla{
-  width: 50%;
-  height: 50%;
-}
-
-
-.EnlaceVideo {
-  color: black;
 }
 
 
@@ -385,42 +327,9 @@ footer a:hover {
   width:  50px;
 }
 
-.IconRedesPop {
-  height: 10%;
-  width:   10%;
-}
-
 .redes-sociales a {
   margin-right:8px;
   margin-left: 8px;
 
 }
 
-.Publicidad {
-  height: 300px;
-  width: 300px;
-}
-
-.ColumnaTemperatura {
-  height: 300px;
-  width: 300px;
-}
-
-
-.cuadro-comentarios {
- margin-left: 20%;
- margin-right: 20%;
-}
-
-.cont-datos-personales {
- display: block;
- max-width: 300px;
- background-color: lightgrey;
- padding-top: 20px;
- padding-bottom: 20px;
- margin-bottom: 20px;
- }
-
- .margen-texto {
-  padding-right: 30px;
-  }

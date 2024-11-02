@@ -1,8 +1,8 @@
 window.addEventListener("load",function(){
   
     document.getElementById("movil-menu").hidden = true;
-    document.getElementById("Herramientas-Manuales"  ).hidden = false;
-    document.getElementById("Herramientas-Electricas").hidden = true;
+    document.getElementById("Herramientas-Manuales"  ).hidden = true;
+    document.getElementById("Herramientas-Electricas").hidden = false;
     document.getElementById("Herramientas-Medicion"  ).hidden = true;
 
 }); 
