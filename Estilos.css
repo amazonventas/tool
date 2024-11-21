@@ -91,6 +91,13 @@ body {
   margin-right: 5px;
 }
 
+.Logo-Amazon {
+  height: 50px;
+  width:  100px;
+  margin-right: 5px;
+}
+
+
 .Link-amazon {
   text-decoration: none;
   color: black;
@@ -217,7 +224,7 @@ body {
 
   .abrir-menu {
     display: block;
-    margin-right: 5%;
+    margin-right: 3%;
   }
   
   .contenedor-menu {
@@ -247,7 +254,7 @@ body {
   }
 
   .Columna-Central {
-    width: 380px;
+    width: 3800px;
   }
   
   .Contenedor-Imagenes {
